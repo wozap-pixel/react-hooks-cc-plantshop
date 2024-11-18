@@ -13,7 +13,7 @@ function NewPlantForm({ addPlant }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:6001/plants", {
+    fetch("http://localhost:3000/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
